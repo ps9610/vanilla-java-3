@@ -1,13 +1,12 @@
 body {
     background-color: #2f3640;
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .btn {
     cursor: pointer;
-}
-
-body{
-    color: #34495e;
 }
 
 .clicked{
@@ -17,6 +16,50 @@ body{
 .form,
 .greetings {
     display: none;
+}
+
+.content {
+    margin: auto;
+    
+}
+
+h1 {
+    margin: 10px;
+    font-size: 1050%;
+    letter-spacing: -5px;
+    cursor: default;
+}
+
+h4 {
+    margin: 10px;
+    font-size: 337%;
+    text-align: center;
+    cursor: default;
+}
+
+input {
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: transparent;
+    font-size: 2rem;
+    color: white;
+    padding: 0px;
+    line-height: 1;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder{
+    text-align: center;
+    color: white;
+}
+
+.toDoWrapper {
+    margin-top: 70px;
+    margin-left: 120px;
+    justify-content: flex-end;
 }
 
 .showing {
@@ -41,4 +84,8 @@ body{
  height: 100%;   
  z-index: -1;
  animation: fadeIn 0.5s linear;
+}
+
+.js-weather {
+    height: 100px;
 }
