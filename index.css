@@ -9,17 +9,23 @@ body {
     cursor: pointer;
 }
 
-.clicked{
+.clicked {
     color: #7f8c8d;
 }
 
 .form,
 .greetings {
+    margin: 0 auto;
     display: none;
 }
 
+.form input {
+display:block;
+margin: 50px auto;
+}
+
 .content {
-    margin: auto;
+    margin: 0 auto;
     
 }
 
@@ -87,5 +93,8 @@ input::placeholder{
 }
 
 .js-weather {
+    position: absolute;
+    top:20px;
+    right:50px;
     height: 100px;
 }
